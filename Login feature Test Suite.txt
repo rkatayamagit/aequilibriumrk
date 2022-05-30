@@ -1,0 +1,115 @@
+Information:
+GitHub: aequilibriumrk
+https://github.com/rkatayamagit/aequilibriumrk.git
+
+
+Login feature
+Test Case 1 - Successfull login with standard_user
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Click on the "Username" field and fill out with "standard_user"
+EXPECTED_RESULT:
+"Username" field filled out
+3-Click on the "Password" field and fill out with "secret_sauce"
+EXPECTED_RESULT:
+"Password" field filled out
+4-Click on the "LOGIN" button
+SWAG LABS Products homepage displayed
+
+Test Case 2 - Successfull login with problem_user
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Click on the "Username" field and fill out with "problem_user"
+EXPECTED_RESULT:
+"Username" field filled out
+3-Click on the "Password" field and fill out with "secret_sauce"
+EXPECTED_RESULT:
+"Password" field filled out
+4-Click on the "LOGIN" button
+SWAG LABS Products homepage displayed
+
+Test Case 3 - Successfull login with performance_glitch_user
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Click on the "Username" field and fill out with "performance_glitch_user"
+EXPECTED_RESULT:
+"Username" field filled out
+3-Click on the "Password" field and fill out with "secret_sauce"
+EXPECTED_RESULT:
+"Password" field filled out
+4-Click on the "LOGIN" button
+SWAG LABS Products homepage displayed
+
+Test Case 4 - Authentication error for locked user
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Click on the "Username" field and fill out with "locked_out_user"
+EXPECTED_RESULT:
+"Username" field filled out
+3-Click on the "Password" field and fill out with "secret_sauce"
+EXPECTED_RESULT:
+"Password" field filled out
+4-Click on the "LOGIN" button
+Error message displayed "Epic sadface: Sorry, this user has been locked out."
+
+Test Case 5 - Authentication error when the "username" and "password" fields are in blank
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Leave the "username" and "password" fields in blank
+EXPECTED_RESULT:
+The "username" and "password" fields are in blank
+3-Click on the "LOGIN" button
+Error message displayed "Epic sadface: Username is required"
+
+Test Case 6 - Authentication error when only the "username" fields is in blank and "password" filled out with correct value.
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Leave the "username" field in blank
+EXPECTED_RESULT:
+The "username" field in blank
+3-Click on the "Password" field and fill out with "secret_sauce"
+EXPECTED_RESULT:
+"Password" field filled out
+4-Click on the "LOGIN" button
+Error message displayed "Epic sadface: Username is required"
+
+Test Case 7 - Authentication error when only the "password" field is in blank and "username" filled out with correct value.
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Click on the "Username" field and fill out with "standard_user"
+EXPECTED_RESULT:
+"Username" field filled out
+3-Leave the "Password" field in blank
+EXPECTED_RESULT:
+"Password" field in blank.
+4-Click on the "LOGIN" button
+Error message displayed "Epic sadface: Password is required"
+
+Test Case 8 - Authentication error when provide invalid user credentials
+STEPS
+1-Access the https://www.saucedemo.com/
+EXPECTED_RESULT:
+SWAG LABS Login page displayed.
+2-Click on the "Username" field and fill out with "testtesttest"
+EXPECTED_RESULT:
+"Username" field filled out
+3-Click on the "Password" field and fill out with "123456"
+EXPECTED_RESULT:
+"Password" field filled out
+4-Click on the "LOGIN" button
+Error message displayed "Epic sadface: Username and password do not match any user in this service"
+
