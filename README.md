@@ -2,7 +2,10 @@
 ## aequilibrium task
 
 
-This is the project for aequilibrium QA Automation Engineer Assignment using Cypress web automation framework
+This is the project for aequilibrium QA Automation Engineer Assignment using Cypress web automation framework.
+
+The automation scripts were based on the Test suite .txt file **"Login feature Test Suite.txt"**
+
 ## Setup
 ### Prerequisites
 
