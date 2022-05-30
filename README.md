@@ -3,8 +3,8 @@
 
 
 This is the project for aequilibrium QA Automation Engineer Assignment using Cypress web automation framework
-### Setup
-##Prerequisites
+## Setup
+### Prerequisites
 
 - Node - version at least v11.11.0
 
