@@ -1,0 +1,19 @@
+{   "baseUrl": "https://www.saucedemo.com/",
+    "experimentalSourceRewriting": false,
+    "experimentalStudio": true,
+    "watchForFileChanges": false,
+    "trashAssetsBeforeRuns":true,
+    "integrationFolder": "cypress/integration",
+    "testFiles": "**/*.spec.*",
+    "video":true,
+    
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 100000,
+    "requestTimeout": 200000,
+    "responseTimeout": 100000,
+    "taskTimeout": 200000,
+    "pageLoadTimeout": 600000,
+    "retries": 2
+}
